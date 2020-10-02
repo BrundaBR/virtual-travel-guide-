@@ -71,13 +71,16 @@ decoration: BoxDecoration(
 
                 child:Text(""),
               ),
+
+
+
                 Container(
                   //button
                   padding: const EdgeInsets.all(50.0),
                   child:FlatButton(
-                    color:blue,
+                    color:cream,
 
-                  child: Text('Location',style: TextStyle(color:Colors.white,fontSize: 25,fontFamily: 'Verdana'),),
+                  child: Text('Location',style: TextStyle(color:Colors.white,fontSize: 15,fontFamily: 'Verdana'),),
                     padding: const EdgeInsets.all(10.0),
 
                     onPressed: (){
